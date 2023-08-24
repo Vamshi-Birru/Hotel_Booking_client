@@ -24,7 +24,7 @@ const useFetch = (url) => {
   const reFetch = async () => {
     setLoading(true);
     try {
-      const res = await axios.get(`https://booking-api-3l8s.onrender.com/api/${url}`);
+      const res = await axios.get(`https://booking-api-3l8s.onrender.com/api${url}`);
       setData(res.data);
     } catch (err) {
       setError(err);
