@@ -10,7 +10,7 @@ const useFetch = (url) => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const res = await axios.get(`https://booking-api-3l8s.onrender.com/api/${url}`);
+        const res = await axios.get(`https://booking-api-3l8s.onrender.com/api${url}`);
         console.log(res);
         setData(res.data);
       } catch (err) {
