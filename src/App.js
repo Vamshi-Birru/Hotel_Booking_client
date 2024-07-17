@@ -8,6 +8,11 @@ import Hotel from "./pages/hotel/Hotel";
 import List from "./pages/list/List"
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 
 function App() {
   return (
