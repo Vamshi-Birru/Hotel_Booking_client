@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
           <span className="logo">GoBookings</span>
         </Link>
-        {user ? user.username : (
+        {user ? <span className="logo">{user.username}</span>  : (
           <div className="navItems">
             <Link to={"/register"}><button className="navButton" >Register</button></Link>
             <Link to={"/login"}><button className="navButton" >Login</button></Link> 

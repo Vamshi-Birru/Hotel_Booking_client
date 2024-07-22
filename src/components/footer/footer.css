@@ -18,9 +18,10 @@
 
 .fListItem{
   margin-bottom: 10px;
-  color: #003580;
+  color: white;
   cursor: pointer;
 }
 .fText{
+  color: white;
   margin-bottom: 20px;
 }
